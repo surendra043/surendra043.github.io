@@ -1,34 +1,153 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>my portfolio</title>
-    <style>
-        body {
-            font-family: Arial;
-            text-align: center;
-            background: #eef2ff;
-            padding: 40px;
-        }
-        h1 { color: #3730a3; }
-        .card {
-            background: white;
-            padding: 25px;
-            border-radius: 15px;
-        }
-    </style>
+<title>Surendra | Portfolio</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: white;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    color: #222;
+    padding: 35px 20px;
+    margin: 20px 0;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.profile {
+    width: 110px;
+    height: 110px;
+    background: #243b55;
+    color: white;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #243b55;
+    margin-bottom: 12px;
+}
+
+h2 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.8;
+    color: #555;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill {
+    background: #dbeafe;
+    color: #1e40af;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.project {
+    background: #eff6ff;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.contact a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+</style>
 </head>
+
 <body>
-    <div class="card">
-        <h1>Hello, I'm surendra</h1>
-        <p>BTech Student | Python Learner</p>
-        <h2>About Me</h2>
-        <p>I am learning programming and web development.</p>
-        <h2>My Skills</h2>
-        <p>Python, HTML, CSS</p>
-        <h2>python</h2>
-        <p>Student Records Project</p>
-        <h2>9392******</h2>
-        <p>Email: venkysurendra***@gmail.com</p>
+
+<div class="container">
+
+<div class="card">
+    <div class="profile">S</div>
+    <h1>Hello, I'm Surendra</h1>
+    <p>BTech Student | Python Learner</p>
+    <p>Welcome to my personal portfolio!</p>
+</div>
+
+<div class="card">
+    <h2>About Me</h2>
+    <p>
+    I am a BTech student interested in
+    programming, technology and web development.
+    I enjoy learning new skills and building projects.
+    </p>
+</div>
+
+<div class="card">
+    <h2>My Skills</h2>
+    <div class="skills">
+        <div class="skill">Python</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">Java</div>
     </div>
+</div>
+
+<div class="card">
+    <h2>My Projects</h2>
+    <div class="project">
+        <h3>Student Records Project</h3>
+        <p>A project to manage student information.</p>
+    </div>
+</div>
+
+<div class="card contact">
+    <h2>Contact Me</h2>
+    <p>Email: your-email@example.com</p>
+    <p>GitHub: surendra043</p>
+</div>
+
+<footer>
+    <p style="color:white;">
+    © 2026 Surendra | My Portfolio
+    </p>
+</footer>
+
+</div>
+
 </body>
-</html> 
+</html>
